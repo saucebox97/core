@@ -6,7 +6,7 @@ public class EasternRestaurant implements Restaurant{
     private Course course;
 
     public EasternRestaurant() {
-        this.chef = new KimChef();
+        this.chef = new KimuraChef();
         this.course = new SushiCourse();
     }
 

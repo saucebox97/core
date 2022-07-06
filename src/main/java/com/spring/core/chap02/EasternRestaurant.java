@@ -4,7 +4,7 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-@NoArgsConstructor
+@NoArgsConstructor // 생성자
 @Setter @Getter
 public class EasternRestaurant implements Restaurant {
 
@@ -25,4 +25,5 @@ public class EasternRestaurant implements Restaurant {
     public void order() {
         chef.cook();
     }
+
 }
